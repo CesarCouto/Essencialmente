@@ -1,0 +1,42 @@
+.fundo{
+    background-color: transparent;
+    margin: 0;
+}
+
+.circulo{
+    width: 500px;
+    height: 500px;
+    background-color: #DC8898;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.container_imagem{
+    width: 128px;
+    height: 128px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: transparent;
+}
+
+.imagem_circulo{
+    width: 180px;
+    height: 180px;
+}
+
+.container_texto{
+    width: 450px;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.titulo_circulo{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+}
