@@ -7,7 +7,6 @@ import Footer from './assets/Componentes/Footer'
 
 
 
-
 function App() {
   
 
@@ -15,6 +14,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <Footer />
     </>
   )
 }
