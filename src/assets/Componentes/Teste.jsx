@@ -1,18 +1,8 @@
-import Styles from './Home.module.css'
-import Sobre from './Sobre'
-import Competencia from './Competencia'
-import Servico from './Servico'
-import Destaque from './Destaque'
-import Horario from './Horario'
+import Styles from './Teste.module.css'
 
-
-
-function Home(){
+function Teste(){
     return(
-      
-         <main className={Styles.main}>
-          
-
+        <main>
             <section className={Styles.principal}>
                 <div className={Styles.container_texto}>
                     <h1 className={Styles.titulo}>Essencialmente Clínica de Psicologia</h1>
@@ -20,18 +10,9 @@ function Home(){
                 </div>
 
             </section>
-
-            <Sobre />
-            <Competencia />
-            <Servico />
-            <Destaque />
-            <Horario />
-                  
-           </main>
-             
+            
+        </main>
     )
 }
 
-
-
-export default Home
+export default Teste

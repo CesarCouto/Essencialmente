@@ -1,4 +1,138 @@
-.fundo{
+.contato{
+    width: 100%;
+    height: 579px;
+    background-image: url(../Imagens/Contato.png);
+}
+
+.titulo_contato{
+    font-size: 90px;
+    color: #DC8898;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.section_mapa{
+    width: 100%;
+    height: 900px;
+    background-color: #F7E3DC;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 812px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.telefone{
+    width: 860px;
+    height: 556px;
+    background-color: red; 
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.mapa{
+    width: 885px;
+    height: 556px;
+    background-color: transparent;
+    margin-top: 150px;
+}
+
+.titulo_telefone{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 60px;
+}
+
+.numero_1{
+    width: 600px;
+    height: 65px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.numero_2{
+    width: 600px;
+    height: 65px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 65px;
+    height: 65px;
+    margin-left: 50px;
+}
+
+.numero{
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.icon_rede{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.lugar{
+    width: 100%;
+    height: 802px;
+    background-image: url(../Imagens//fundo-contato.png);
+    display: flex;
+}
+
+.container_lugar{
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    margin-top: 90px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+}   
+
+.img_lugar{
+    width: 256px;
+    height: 256px;
+    margin-left: 280px;
+}
+
+.titulo_lugar{
+    font-size: 45px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+}
+
+.texto_lugar{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.telefone_sobre{
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fundo_contato{
     width: 100%;
     height: 300px;
     background-color: #398483;
@@ -6,7 +140,7 @@
     flex-direction: row;
 }
 
-.container_texto{
+.container_texto_contato{
     width: 800px;
     height: 120px;
     margin-top: 80px;
@@ -17,6 +151,7 @@
 .texto_contato{
     font-size: 45px;
     font-weight: normal;
+    color: #FFF;
 }
 
 .container_btn{
@@ -32,7 +167,10 @@
     height: 100%;
     background-color: #D1663E;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 8px;
     color: #FFF;
 }
+
+
+

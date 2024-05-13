@@ -8,9 +8,9 @@ function Servico(){
     return(
         <div>
             <section className={Styles.servico}>
-                <div className={Styles.container_texto}>
+                <div className={Styles.container_texto_servico}>
                     <h2 className={Styles.titulo_servico}>Serviços</h2>
-                    <h2 className={Styles.sub_titulo}>Nossas especialidades</h2>
+                    <h2 className={Styles.sub_titulo_servico}>Nossas especialidades</h2>
                     <div className={Styles.container_circulo}>
                     <CirculoProps 
                         imagem={Psicologia}

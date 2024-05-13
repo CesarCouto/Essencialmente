@@ -25,7 +25,7 @@
     flex-direction: row;
 }
 
-.container_imagem{
+.container_imagem_destaque{
     width: 650px;
     height: 700px;
     background-color: transparent;
@@ -35,7 +35,7 @@
     flex-direction: column;
 }
 
-.container_texto{
+.container_texto_destaque{
     width: 930px;
     height: 750px;
     background-color: transparent;

@@ -1,15 +1,34 @@
 import Styles from './Contato.module.css'
+import Telefone from '../Imagens/contato-grande.png'
+import Whatsapp from '../Imagens/whats.png'
+import Lugar from '../Imagens/lugar.png'
+import Horario from './Horario'
+import Mapa from './Mapa'
+import Footer from './Footer'
 
 function Contato(){
     return(
-        <div className={Styles.fundo}>
-            <div className={Styles.container_texto}>
-                <h2 className={Styles.texto_contato}>Entre em contato e agende um horário</h2>
-            </div>
+        <div>
 
-            <div className={Styles.container_btn}>
-                <button className={Styles.btn}>Entrar em contato</button>
-            </div>
+        <main className={Styles.contato}>
+            <h1 className={Styles.titulo_contato}>Contato</h1>         
+        </main>
+
+        <Mapa />
+
+        <section className={Styles.lugar}>
+          <div className={Styles.container_lugar}>
+                <img src={Lugar} className={Styles.img_lugar} alt="" />
+                <h2 className={Styles.titulo_lugar}>Unidade Bonifacio Cubas</h2>
+                <p className={Styles.texto_lugar}>R. Bonifácio Cubas, 641 - Freguesia do Ó, São Paulo - SP, 02731-000</p>
+                <p className={Styles.telefone_sobre}>TEL (11) 96882-1375</p>
+          </div> 
+
+        
+        </section>
+        
+        <Horario />
+        
         </div>
     )
 }

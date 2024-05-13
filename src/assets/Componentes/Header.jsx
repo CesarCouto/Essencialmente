@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Styles from './Header.module.css'
 import Logo from '../Imagens/logo.png'
 import Facebook from '../Imagens/facebook.png'
@@ -10,14 +12,14 @@ function Header(){
             <header  className={Styles.header}>
                 
                 <nav className={Styles.nav_left}>
-                    <img src={Logo} className={Styles.logo} alt="Logo Essencialmente" />
+                    <Link to='/Essencialmente'><img src={Logo} className={Styles.logo} alt="Logo Essencialmente" /> </Link> 
                 </nav>
 
                 <nav className={Styles.nav_link}>
                     <ul>
-                        <li id={Styles.inicio}>Início</li>
+                        <li id={Styles.inicio}><Link to='/Essencialmente'>Início</Link></li>
                         <li>Quem somos</li>
-                        <li>Contato</li>
+                        <li><Link to='/Contato'> Contato</Link></li>
                         <li><button className={Styles.btn_contato}>Whatsapp <img src={Whatsapp} alt="Logo do Whatsapp" /></button></li>
                     </ul>
                 </nav>

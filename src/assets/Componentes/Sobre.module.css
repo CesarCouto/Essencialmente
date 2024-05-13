@@ -4,7 +4,8 @@ section{
     background-color: #E3EAEA;
     display: flex;
     flex-direction: row;
-    margin-top: 480px;
+     margin-top: 0px; 
+    
 }
 
 .container_imagem{

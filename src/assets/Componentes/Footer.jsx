@@ -2,9 +2,9 @@ import Styles from './Footer.module.css'
 
 function Footer(){
     return(
-        <div className={Styles.fundo}>
+        <footer className={Styles.fundo}>
             
-        </div>
+        </footer>
     )
 }
 
