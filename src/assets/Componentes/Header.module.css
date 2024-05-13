@@ -41,6 +41,12 @@ div{
 
 ul li{
     font-size: 20px;
+    
+}
+
+li:hover{
+    transform: translateY(-8px);
+    transition: transform 0.5s ease; /* Adiciona uma transição suave */
 }
 
 .btn_contato{
@@ -72,6 +78,11 @@ ul li{
     flex-direction: row;
 }
 
+.redes_sociais:hover{
+    transform: translateY(-8px);
+    transition: transform 0.5s ease; /* Adiciona uma transição suave */
+}
+
 .redes_sociais{
     width: 32px;
     height: 32px;
@@ -79,4 +90,17 @@ ul li{
     margin-top: 50px;
 }
 
+/* Header.module.css */
 
+.link {
+    /* Adicione estilos comuns para os links aqui */
+    color: #DC8898;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .link:hover {
+    color: #a1616c;
+  }
+  
+  
