@@ -20,6 +20,7 @@ function Home(){
                 </div>
 
             </section>
+            
 
             <Sobre />
             <Competencia />
