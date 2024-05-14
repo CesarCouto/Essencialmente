@@ -19,19 +19,21 @@ function Header() {
         <nav className={Styles.nav_link}>
           <ul>
             <li className={Styles.linkItem}><Link to='/Essencialmente' className={Styles.link}>Início</Link></li>
-            <li className={Styles.linkItem}>Quem somos</li>
+            <li className={Styles.linkItem}><Link to='/Quem_Somos' className={Styles.link}>Quem somos </Link></li>
             <li className={Styles.linkItem}><Link to='/Contato' className={Styles.link}>Contato</Link></li>
             <li>
-              <button className={Styles.btn_contato}>
-                Whatsapp <img src={Whatsapp} alt="Logo do Whatsapp" />
-              </button>
+              <a href="https://api.whatsapp.com/send?phone=5511916464183&text=Ol%C3%A1%20Paula" target='_blank' rel=''>
+                <button className={Styles.btn_contato}>
+                  Whatsapp <img src={Whatsapp} alt="Logo do Whatsapp" />
+                </button>
+              </a>
             </li>
           </ul>
         </nav>
 
         <nav className={Styles.nav_right}>
-          <img src={Facebook} className={Styles.redes_sociais} alt="Logo do facebook" />
-          <img src={Instagram} className={Styles.redes_sociais} alt="Logo do Instagram" />
+          <a href="https://www.facebook.com/clinicaessencialmente" target='_blank'><img src={Facebook} className={Styles.redes_sociais} alt="Logo do facebook" /></a>
+          <a href="https://www.instagram.com/paulavirginia.psicologa/" target='_blank'><img src={Instagram} className={Styles.redes_sociais} alt="Logo do Instagram" /></a>
         </nav>
       </header>
     </div>
