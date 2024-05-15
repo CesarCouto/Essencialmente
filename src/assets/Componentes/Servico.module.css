@@ -30,3 +30,8 @@
     background-color: transparent;
     margin-top: 45px;
 }
+
+@media screen and (min-width: 900px) and (max-width: 1800px) {
+
+
+}

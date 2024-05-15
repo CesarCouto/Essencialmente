@@ -44,3 +44,33 @@ section{
     padding-top: 15px;
     color: #000;
 }
+
+@media screen and (min-width: 900px) and (max-width: 1800px) {
+
+    .container_imagem{
+        width: 600px;
+        height: 500px;
+        margin-left: 35px;
+        margin-top: 175px;
+    }
+
+    .container_imagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    section{
+        width: 100%;
+        height: 850px;
+        background-color: #E3EAEA;
+        display: flex;
+        flex-direction: row;
+         margin-top: 0px; 
+        
+    }
+
+
+
+  }
+  
+

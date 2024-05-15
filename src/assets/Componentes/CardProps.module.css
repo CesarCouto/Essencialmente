@@ -6,7 +6,7 @@
     border-radius: 38px;
     display: flex;
     flex-direction: column;
-   border: 1px solid #00000050;
+    border: 1px solid #00000050;
     margin: 0;
 }
 
@@ -28,4 +28,41 @@
     font-size: 25px;
     margin-top: 30px;
     text-align: center;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1800px) {
+
+    .card{
+        width: 320px;
+        height: 500px;
+        background-color: rgba(175, 219, 230, 0.6);  
+        position: relative;
+        border-radius: 38px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #00000050;
+        margin: 0;
+    }
+
+    .selo{
+        width: 128px;
+        height: 128px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    .texto_card{
+        font-size: 23px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .titulo_card{
+        text-align: center;
+        color: #FFF;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    
+
 }

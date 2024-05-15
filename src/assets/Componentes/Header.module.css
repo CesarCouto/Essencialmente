@@ -106,4 +106,16 @@ li:hover{
     color: #FFF;
     text-decoration: none;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1800px) {
+    /* Estilos para telas com largura entre 768px e 1919px */
+  
+    .logo{
+        margin-left: 200px;
+    }
+
+    .nav_link ul{
+        width: 550px;
+    }
+  }
   

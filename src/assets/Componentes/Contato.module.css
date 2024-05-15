@@ -172,5 +172,19 @@
     color: #FFF;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1800px) {
+
+    .container_lugar{
+        width: 800px;
+        height: 600px;
+        background-color: transparent;
+        margin-top: 90px;
+        margin-left: 250px;
+        display: flex;
+        flex-direction: column;
+    }     
+
+}
+
 
 

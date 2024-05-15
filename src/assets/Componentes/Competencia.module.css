@@ -54,3 +54,38 @@
     color: #FFF;
 }
 
+@media screen and (min-width: 900px) and (max-width: 1800px) {
+
+    .container_card_1{
+        margin-top: 250px;
+        margin-left: 50px;
+        width: 419px;
+        height:625px ;
+        background-color: transparent;
+        border-radius: 38px;
+        color: #FFF;
+    }
+
+    .container_card_3{
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 419px;
+    height:625px ;
+    background-color: transparent;
+    border-radius: 38px;
+    color: #FFF;
+}
+
+.container_card_2{
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 419px;
+    height:625px ;
+    background-color: transparent;
+    border-radius: 38px;
+    color: #FFF;
+}
+
+
+
+}

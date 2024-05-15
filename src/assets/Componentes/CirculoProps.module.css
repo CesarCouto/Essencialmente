@@ -40,3 +40,45 @@
     text-align: center;
     font-size: 50px;
 }
+
+@media screen and (min-width: 900px) and (max-width: 1800px) {
+
+    .circulo{
+        width: 350px;
+        height: 350px;
+        background-color: #DC8898;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .imagem_circulo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .titulo_circulo{
+        color: #000;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .container_imagem{
+        width: 128px;
+        height: 128px;
+        margin-top: 30px;
+        margin-left: 120px;
+        background-color: transparent;
+    }
+
+    .container_texto{
+        width: 200px;
+        height: 300px;
+        background-color: transparent;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+}
