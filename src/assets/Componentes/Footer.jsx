@@ -12,10 +12,18 @@ import { Link } from 'react-router-dom'
 
 
 function Footer(){
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "auto"
+        });
+      };
+
     return(
         <footer className={Styles.fundo}>
             <div className={Styles.container_imagens}>
-                <Link to='/Essencialmente'><img src={Logo} alt="" /></Link>
+                <Link to='/Essencialmente' onClick={scrollToTop}><img src={Logo} alt="" /></Link>
                 <div className={Styles.icons}>
                     <a href="https://api.whatsapp.com/send?phone=5511916464183&text=Ol%C3%A1%20Paula" target='_blank'><img src={Whats} className={Styles.icons_redes} alt="" /></a>
                     <a href="https://www.facebook.com/clinicaessencialmente" target='_blank'><img src={Facebook} className={Styles.icons_redes} alt="" /></a>
